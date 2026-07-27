@@ -1,14 +1,13 @@
 # 🦐Xiāqiú's Self-instruction🍥
-- **Name**: Just call me Xiāqiú, "xiā" means "shrimp" and "qiú" means "ball". And Xiāqiú is short for Xiāyígònghéqiú.[^1]
-[^1]: Xiāqiú: 虾球/蝦球; Xiāyígònghéqiú: 虾夷共和球/蝦夷共和球. (**全网同名**)
+- **Pseudonym**: Xiāqiú.[^1]
+[^1]: "Xiā" (虾/蝦) means "shrimp" and "qiú" (球) means "ball". Xiāqiú is short for Xiāyígònghéqiú (虾夷共和球/蝦夷共和球), which I have been using as a pseudonym since about 2016.
 
-- **Studies**: Accounting Professional Qualification (Assistant Accountant); CPA (including CAATs with SQL/Python) on the way.[^3]
-[^2]: CPA: Certified Public Account; CAATs: Computer-Assisted Audit Techniques.
+- **Studies**: Accounting Professional Qualification (Assistant Accountant); CPA (CAATs/SQL/Python) in progress.
 
-- **Languages**: Chinese, English (B1/B2), Japanese (N5 & Kanbun Kundoku), Esperanto, Hangul, etc.
+- **Languages**: Chinese, intermediate English, Japanese (N5 & Kanbun Kundoku), Esperanto, Hangul, etc.
 
-- **Games**: Minecraft, Terraria & WarThunder, etc.[^4]
-[^3]: Minecraft JEID: XiaYiGongHeQiu; BEID: XiaYGHQiu.<br>
+- **Games**: Minecraft, Terraria & WarThunder, etc.[^2]
+[^2]: Minecraft JEID: XiaYiGongHeQiu; BEID: XiaYGHQiu.<br>
 Steam code: 1072946211
 
 - **Others**: *I dream of helping others with my abilities in the future. And feel free to chat or play with me meow~*
