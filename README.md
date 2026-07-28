@@ -2,9 +2,9 @@
 - **Pseudonym**: Xiāqiú.[^1]
 [^1]: "Xiā" (虾/蝦) means "shrimp" and "qiú" (球) means "ball". Xiāqiú is short for Xiāyígònghéqiú (虾夷共和球/蝦夷共和球), which I have been using as a pseudonym since about 2016.
 
-- **Studies**: Accounting Professional Qualification (Assistant Accountant); CPA (CAATs/SQL/Python) in progress.
+- **Studies**: Accounting Professional Qualification *(Assistant Accountant)*; CPA *(CAATs with coding)* in progress.
 
-- **Languages**: Chinese, intermediate English, Japanese (N5 & Kanbun Kundoku), Esperanto, Hangul, etc.
+- **Languages**: Chinese, intermediate English, Esperanto, etc.
 
 - **Games**: Minecraft, Terraria & WarThunder, etc.[^2]
 [^2]: Minecraft JEID: XiaYiGongHeQiu; BEID: XiaYGHQiu.<br>
