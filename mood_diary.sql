@@ -1,0 +1,75 @@
+-- MySQL dump 10.13  Distrib 8.0.46, for Win64 (x86_64)
+--
+-- Host: localhost    Database: mydatabase202607
+-- ------------------------------------------------------
+-- Server version	8.0.46
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `mood_diary`
+--
+
+DROP TABLE IF EXISTS `mood_diary`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `mood_diary` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `record_date` date NOT NULL COMMENT '日期',
+  `record_time` enum('早晨','上午','中午','下午','晚上') COLLATE utf8mb4_general_ci DEFAULT '晚上' COMMENT '记录时段',
+  `weather` varchar(50) COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '天气状况（如：晴、多云、小雨、大雾）',
+  `mood_score` tinyint DEFAULT NULL COMMENT '整体心情(1极糟-10极好)',
+  `anxiety_score` tinyint DEFAULT NULL COMMENT '焦虑程度(1极低-10濒死)',
+  `energy_score` tinyint DEFAULT NULL COMMENT '精力(1瘫软-10亢奋)',
+  `suicidal_ideation` tinyint DEFAULT NULL COMMENT '自杀意念(0无-10强烈/明确计划/紧急)',
+  `sleep_hours` decimal(3,1) DEFAULT NULL COMMENT '昨夜睡眠时长(小时)',
+  `sleep_quality` tinyint DEFAULT NULL COMMENT '昨夜睡眠质量(1极差-10极好)',
+  `dream` tinyint(1) DEFAULT '0' COMMENT '昨夜梦境(0无梦,1有梦,2噩梦)',
+  `functioning_score` tinyint DEFAULT NULL COMMENT '日常做事效率(1极差-10极好)',
+  `highlight` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '今日亮点',
+  `struggle` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '今日困扰',
+  `body_feeling` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '身体感受',
+  `social_contact` varchar(255) COLLATE utf8mb4_general_ci DEFAULT '无事' COMMENT '社交状态',
+  `diary_content` text COLLATE utf8mb4_general_ci COMMENT '自由书写日记正文',
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后修改时间',
+  PRIMARY KEY (`id`),
+  CONSTRAINT `mood_diary_chk_1` CHECK ((`mood_score` between 1 and 10)),
+  CONSTRAINT `mood_diary_chk_2` CHECK ((`anxiety_score` between 1 and 10)),
+  CONSTRAINT `mood_diary_chk_3` CHECK ((`energy_score` between 1 and 10)),
+  CONSTRAINT `mood_diary_chk_4` CHECK ((`suicidal_ideation` between 0 and 10)),
+  CONSTRAINT `mood_diary_chk_5` CHECK ((`sleep_quality` between 1 and 10)),
+  CONSTRAINT `mood_diary_chk_6` CHECK ((`dream` in (0,1,2))),
+  CONSTRAINT `mood_diary_chk_7` CHECK ((`functioning_score` between 1 and 10))
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='心情日记表';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mood_diary`
+--
+
+LOCK TABLES `mood_diary` WRITE;
+/*!40000 ALTER TABLE `mood_diary` DISABLE KEYS */;
+INSERT INTO `mood_diary` VALUES (1,'2026-07-28','中午','晴',6,5,5,0,10.0,7,1,6,'今日进行GAHT复诊体检，包括血常规和激素六项等，因为能借机骑车出门了所以很开心。','医院的“数据孤岛”导致缴费、确认和检查流程不顺畅，需要多次排队和等待。','无碍，但可能因为药物原因仍旧乏力','在家无事','总体无事，但终究还是想play，无论是室外还是线上。但是夏天又晒又热，就算到了晚上还是很热；线上的话自己又没有很充足的精力去玩游戏，所以只能看看MySQL.','2026-07-28 03:37:25','2026-07-28 03:37:25');
+/*!40000 ALTER TABLE `mood_diary` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2026-07-28 11:42:38
