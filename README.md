@@ -2,7 +2,7 @@
 - **Pseudonym**: Xiāqiú.[^1]
 [^1]: "Xiā" (虾/蝦) means "shrimp" and "qiú" (球) means "ball". Xiāqiú is short for Xiāyígònghéqiú (虾夷共和球/蝦夷共和球), which I have been using as a pseudonym since about 2016.
 
-- **Studies**: Accounting Professional Qualification *(Assistant Accountant)*; CPA *(CAATs with coding)* in progress.
+- **Studies**: Accounting Professional Qualification *(Assistant Accountant)*; CPA *(incl. IT)* candidate.
 
 - **Languages**: Chinese, intermediate English, Esperanto, etc.
 
@@ -10,7 +10,7 @@
 [^2]: Minecraft JEID: XiaYiGongHeQiu; BEID: XiaYGHQiu.<br>
 Steam code: 1072946211
 
-- **Others**: *I dream of helping others with my abilities in the future. And feel free to chat or play with me meow~*
+> *"I dream of helping others with my abilities in the future. And feel free to chat or play with me meow~"*
 
 <!--
 **Xiayigongheqiu/Xiayigongheqiu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
