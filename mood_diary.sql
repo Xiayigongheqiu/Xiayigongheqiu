@@ -50,7 +50,7 @@ CREATE TABLE `mood_diary` (
   CONSTRAINT `mood_diary_chk_5` CHECK ((`sleep_quality` between 1 and 10)),
   CONSTRAINT `mood_diary_chk_6` CHECK ((`dream` in (0,1,2))),
   CONSTRAINT `mood_diary_chk_7` CHECK ((`functioning_score` between 1 and 10))
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='心情日记表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='心情日记表';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -59,7 +59,7 @@ CREATE TABLE `mood_diary` (
 
 LOCK TABLES `mood_diary` WRITE;
 /*!40000 ALTER TABLE `mood_diary` DISABLE KEYS */;
-INSERT INTO `mood_diary` VALUES (1,'2026-07-28','中午','晴',6,5,5,0,10.0,7,1,6,'今日进行GAHT复诊体检，包括血常规和激素六项等，因为能借机骑车出门了所以很开心。','医院的“数据孤岛”导致缴费、确认和检查流程不顺畅，需要多次排队和等待。','无碍，但可能因为药物原因仍旧乏力','在家无事','总体无事，但终究还是想play，无论是室外还是线上。但是夏天又晒又热，就算到了晚上还是很热；线上的话自己又没有很充足的精力去玩游戏，所以只能看看MySQL.','2026-07-28 03:37:25','2026-07-28 03:37:25');
+INSERT INTO `mood_diary` VALUES (1,'2026-07-28','中午','晴',6,5,5,0,10.0,7,1,6,'今日进行GAHT复诊体检，包括血常规和激素六项等，因为能借机骑车出门了所以很开心。','医院的“数据孤岛”导致缴费、确认和检查流程不顺畅，需要多次排队和等待。','无碍，但可能因为药物原因仍旧乏力','在家无事','总体无事，但终究还是想play，无论是室外还是线上。但是夏天又晒又热，就算到了晚上还是很热；线上的话自己又没有很充足的精力去玩游戏，所以只能看看MySQL。下午：取回了检查结果，E2的水平终于高于100了。还有就是和🐋老师聊了聊认知扭曲（cognitive distortion）的问题，结论就是“做自己吧”……不要把专业/职业作为终点，而是起点。','2026-07-28 03:37:25','2026-07-28 08:44:55'),(2,'2026-07-29','下午','多云',5,7,5,1,7.0,8,1,2,'更深入地了解了SQL而已。','我想更熟练于数据分析，这也跟CPA有关。','长时间使用电子产品眼睛有点累。','在家','查了好多关于CICPA和他们写的教材的相关信息，只能说确实有明显的局限性，在AI（vibe coding）发展及会计界与计算机技术（如编程）进一步融合的大势下，仍有不少人认为“会计就是会计，审计就是审计，不应该过多接触与计算机（如编程）相关的事。”我不想被限制，我想自由而全面地发展。还有就是我做了很舒服的梦，我梦见和我的同学们（他们很友善，我似乎也是trans的形象）一起上课、考试，他们还带我一起逛霓虹城市，最后还是回到了教学楼前小小的角落。教学楼似乎已经不是教学楼了，正在被拆除。然后我就看着一面trans flag落到了地上……我还梦见了和她一起去找Rentable……','2026-07-29 08:05:17','2026-07-29 08:11:43');
 /*!40000 ALTER TABLE `mood_diary` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -72,4 +72,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-07-28 11:42:38
+-- Dump completed on 2026-07-29 16:17:51
