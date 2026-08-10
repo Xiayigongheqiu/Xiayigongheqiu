@@ -1,28 +1,10 @@
-# 🦐Xiāqiú's Self-instruction🍥
-- **Pseudonym**: Xiāqiú.[^1]
-[^1]: "Xiā" (虾/蝦) means "shrimp" and "qiú" (球) means "ball". Xiāqiú is short for Xiāyígònghéqiú (虾夷共和球/蝦夷共和球), which I have been using as a pseudonym since about 2016. Find me everywhere as Xiayigongheqiu/虾夷共和球/蝦夷共和球/XiaYGHQiu.
+**<ruby>Xiāqiú<rt>蝦球</rt></ruby>** | <ruby>GSRM<rt>🏳️‍⚧️</rt></ruby> · <ruby>CPA<rt>注冊會計師</rt></ruby> <ruby>cand.<rt>備考中</rt></ruby> · <ruby>Big Data & Financial Management<rt>大數據與財務管理</rt></ruby>
+- **Cert.**: <ruby>Accounting Professional Qualification<rt>會計專業技術資格</rt></ruby>
+- **Languages**
+  - Natural languages: <ruby>Chinese<rt>中文</rt></ruby>, intermediate English, <ruby>Japanese<rt>日本語</rt></ruby> (N5 & <ruby>Kanbun Kundoku<rt>漢文訓讀</rt></ruby>)
+  - Constructed languages: <ruby>Esperanto<rt>💚</rt></ruby>
+  - Programming languages: SQL, Markdown, VBA, etc. (<ruby>studying<rt>學習中</rt></ruby>)
 
-- **Studies**: Accounting Professional Qualification & CPA etc.
-
-- **Languages**: Chinese, intermediate English, Esperanto, etc.
-
-- **Games**: Minecraft, Terraria & WarThunder, etc.[^2]
-[^2]: Minecraft JEID: XiaYiGongHeQiu; BEID: XiaYGHQiu.<br>
-Steam code: 1072946211
-
-> *"I dream of helping others with my abilities in the future. And feel free to chat or play with me meow~"*
-
-<!--
-**Xiayigongheqiu/Xiayigongheqiu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Links**:
+- [xiayigongheqiu.github.io](https://xiayigongheqiu.github.io)
+- [xiayigongheqiu@outlook.com](mailto:xiayigongheqiu@outlook.com)
