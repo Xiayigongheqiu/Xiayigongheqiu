@@ -3,7 +3,7 @@
 - **Languages**
   - Natural languages: <ruby>Chinese<rt>中文</rt></ruby>, intermediate English, <ruby>Japanese<rt>日本語</rt></ruby> (N5 & <ruby>Kanbun Kundoku<rt>漢文訓讀</rt></ruby>)
   - Constructed languages: <ruby>Esperanto<rt>💚</rt></ruby>
-  - Programming languages: SQL, Markdown, VBA, etc. (<ruby>studying<rt>學習中</rt></ruby>)
+  - Programming languages: SQL, Markdown, etc. (<ruby>studying<rt>學習中</rt></ruby>)
 
 **Links**:
 - [xiayigongheqiu.github.io](https://xiayigongheqiu.github.io)
