@@ -1,5 +1,5 @@
 <h4 align="center">
-  <b><i>W.M., by the Grace of <ruby>Blåhaj<rt>🦈</rt></ruby>, a <ruby>Big Data & Financial Management<rt>大数据与财务管理</rt></ruby> & <ruby>Accounting<rt>会计学</rt></ruby> student with an <ruby>Accounting Professional Qualification<rt>会计专业技术资格</rt></ruby></i></b>
+  <b><i><ruby>W.M.<rt>Xiāyígònghéqiuú</rt></ruby>, by the Grace of <ruby>Blåhaj<rt>🦈</rt></ruby>, a <ruby>Big Data & Financial Management<rt>大数据与财务管理</rt></ruby> & <ruby>Accounting<rt>会计学</rt></ruby> student with an <ruby>Accounting Professional Qualification<rt>会计专业技术资格</rt></ruby></i></b>
 </h4>
 
 ---
